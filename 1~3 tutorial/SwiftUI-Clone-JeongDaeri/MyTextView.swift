@@ -34,7 +34,6 @@ struct MyTextView: View {
                 .font(.system(size: 30))
                 .fontWeight(.bold)
                 .foregroundColor(self.isActivated ? Color.yellow : Color.gray)
-            
             Spacer()
         }
         .background(backgroundColors[index])

@@ -17,9 +17,7 @@ struct ContentView: View {
                     MyVstackView(isActivated: $isActivated)
                 }
                 .padding(isActivated ? 50.0 : 10.0)
-                //
                 .background(isActivated ? Color.yellow : Color.black)
-                
                 // 탭 제스처 추가
                 .onTapGesture {
                     print("HStack이 클릭되었다.")
@@ -42,7 +40,6 @@ struct ContentView: View {
                 }
                 // 네비게이션 버튼(링크)
             }
-            
         } // NavigationView
     }
 }
